@@ -2,7 +2,7 @@
 
 ## Skills Assessed
 
-- Writing Javascript functions with correct syntax, including:
+- Writing Javascript functions with correct syntax, includding:
   - only use `const` and `let` variables
   - use semi-colons where needed
   - name variables and functions with camelCase
@@ -23,16 +23,16 @@ Note there are a handful of incomplete tests that currently throw exceptions. Yo
 After forking and cloning this repo you should `cd` to the project directory and run:
 
 ```bash
-$ yarn install
+$ npm install
 ```
 
-Similar to using virtual environments in Python projects, this makes the yarn package manager download and install any dependencies for the project (such as Jest).
+Similar to using virtual environments in Python projects, this makes the npm (Node Package Manager) package manager download and install any dependencies for the project (such as Jest).
 
 ### When I `yarn install`, I Get a Lot of Text: What do I do?!
 
-Managing external dependencies (packages/libraries that we use) in JavaScript projects is different than managing them in Python. In JavaScript, we use `yarn` to manage dependencies, and those dependencies have other dependencies. Our dependencies may change over time, and those dependency's dependencies change, too! It's a lot.
+Managing external dependencies (packages/libraries that we use) in JavaScript projects is different than managing them in Python. In JavaScript, we use `npm` to manage dependencies, and those dependencies have other dependencies. Our dependencies may change over time, and those dependency's dependencies change, too! It's a lot.
 
-When we run `yarn install`, `yarn` may give us a lot of feedback about the state of our dependencies.
+When we run `npm install`, `npm` may give us a lot of feedback about the state of our dependencies.
 
 If we get **warnings about vulnerabilities,** it's likely that we won't worry about them, even if they're high risk or even if they're many (thousands?!).
 

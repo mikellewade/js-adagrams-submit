@@ -2,7 +2,7 @@
 
 ## Skills Assessed
 
-- Writing Javascript functions with correct syntax, including:
+- Writing Javascript functions with correct syntaxx, including:
   - only use `const` and `let` variables
   - use semi-colons where needed
   - name variables and functions with camelCase
